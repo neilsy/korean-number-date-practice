@@ -1,0 +1,9 @@
+{
+    "name": "korean-number-date_practice",
+    "version": "1.0.0",
+    "description": "Korean Number & Date Practice App",
+    "main": "index.html",
+    "scripts": {
+        "start": "npx serve assets"
+    }
+}

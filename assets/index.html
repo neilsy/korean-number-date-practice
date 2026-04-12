@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Sootja - Korean Number & Date Practice App</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="app-bar">
+        <div class="mode-selector" id="modeSelector">
+            <span id="currentMode">Pure Korean 1–100</span>
+            <img class="chevron" src="icons/chevron-down.svg" alt="" aria-hidden="true" />
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+            <img id="themeIcon" src="icons/sun.svg" alt="Theme icon" width="24" height="24">
+        </button>
+    </header>
+    <div class="direction-bar">
+        <div class="direction-toggle" id="directionToggle">
+            <button class="direction-option active" id="dirForward" data-direction="forward">
+            123 → 한
+            </button>
+            <button class="direction-option" id="dirReverse" data-direction="reverse">
+            한 → 123
+            </button>
+        </div>
+    </div>
+    <main id="mainContent">
+        <div id="startScreen" class="screen active">
+            <button id="startButton">Start</button>
+        </div>
+        <div id="cardFront" class="screen card">
+            <div class="card-content" id="frontContent">47</div>
+            <button id="flipButton" class="cardButton">
+                <img class="button-icon" src="icons/rotate-cw.svg" alt="" aria-hidden="true" width="20" height="20">
+            </button>
+        </div>
+        <div id="cardBack" class="screen card">
+            <div class="card-content" id="backContent">마흔일곱</div>
+            <button id="nextButton" class="cardButton">
+                <img class="button-icon" src="icons/arrow-right.svg" alt="" aria-hidden="true" width="20" height="20">
+                Next
+            </button>
+        </div>
+    </main>
+    <div class="overlay" id="overlay"></div>
+    <div class="bottom-sheet" id="bottomSheet">
+        <div class="sheet-content">
+            <h3>Select Practice Mode</h3>
+            <ul id="modeList" class="mode-list"></ul>
+        </div>
+    </div>
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
