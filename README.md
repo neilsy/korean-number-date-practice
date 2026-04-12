@@ -4,9 +4,9 @@ A simple drill app for practicing Korean numbers, dates, and related vocabulary 
 
 This provides infinite repetition of randomly generated numbers, dates, times, etc. with answers provided in Hangeul.
 
-So this is not a flashcard app in the usual sense. It doesn't retain history or perform spaced repetition. (Spaced repetition of a small, fixed set of cards is not very useful for practicing to quickly say or understand numbers, dates, times, etc. in another language!)
+So this is not a flashcard app in the usual sense. It doesn't retain history or perform spaced repetition. (Spaced repetition of a small, fixed set of cards is not very useful for practicing to quickly say and understand numbers, dates, times, etc. in another language.)
 
-This code, conveniently packaged as an app for ios and android, is coming to app stores soon!
+This app, conveniently packaged for ios and android, is also coming to app stores soon!
 
 The license allows reuse and modification under GPL terms—see the License section below.
 
@@ -20,7 +20,7 @@ The license allows reuse and modification under GPL terms—see the License sect
 
 ## Getting Started
 
-This will appear soon fully packaged in an app for ios and android.
+This will soon be available as an app for ios and android.
 
 But you can use it on a computer by installing it locally and running a simple node server.
 
