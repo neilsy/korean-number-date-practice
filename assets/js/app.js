@@ -191,12 +191,9 @@ function unflipCard() {
 function nextCard() {
     const cardFront = document.getElementById('cardFront');
     const cardBack = document.getElementById('cardBack');
-    
-    // Get the currently active card
-    const activeCard = document.querySelector('.screen.active');
-    
+        
     // Add slide-out animation
-    activeCard.classList.add('slide-out');
+    cardBack.classList.add('slide-out');
     
     // Wait for slide-out to complete, then update content and slide in
     setTimeout(() => {
@@ -208,7 +205,7 @@ function nextCard() {
         
         // Clean up animation classes after animation completes
         setTimeout(() => {
-            activeCard.classList.remove('slide-out');
+            cardBack.classList.remove('slide-out');
             cardFront.classList.remove('slide-in');
         }, 260);
     }, 400);
