@@ -2,7 +2,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-// numberToHangeul.js - Utility for converting numbers to pure Korean Hangeul spelling
+// numberToHangeul.js - Utilities for converting numbers, dates, and times to Hangeul spelling
 
 const pureUnits = ['', '하나', '둘', '셋', '넷', '다섯', '여섯', '일곱', '여덟', '아홉'];
 const pureTens = ['', '열', '스물', '서른', '마흔', '쉰', '예순', '일흔', '여든', '아흔'];

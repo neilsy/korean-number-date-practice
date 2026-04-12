@@ -2,7 +2,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-// pureKoreanNumbers.js - Module for pure Korean number cards (low numbers)
+// Modules for generating cards in the different test modes
 
 import { numberToPureKoreanHangeul, numberToSinoKoreanHangeul, dateToKoreanSpelling, timeToKoreanSpelling } from './numberToHangeul.js';
 import { koreanCountersA } from "./countWords.js";

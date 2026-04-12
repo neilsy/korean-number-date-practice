@@ -2,11 +2,6 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-/*
- * Important: do not edit this list!
- * Edit in countWordTableExtraction/countWords.js, and re-extract using
- * countWordTableExtraction/extractA.js
- */
 export const koreanCountersA = [
   {
     englishExamples: [

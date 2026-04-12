@@ -2,7 +2,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-// app.js - Main application logic for Phase 1b
+// app.js - Main application logic
 import { modes } from './modes.js';
 
 // Current mode and selected strategy (based on enabled mode definitions)
