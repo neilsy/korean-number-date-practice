@@ -8,7 +8,7 @@ So this is not a flashcard app in the usual sense. It doesn't retain history or 
 
 This code, conveniently packaged as an app for ios and android, is coming to app stores soon!
 
-But see below: the licence allows some non-commercial use of this code, so you can use this yourself on a computer quite easily.
+The license allows reuse and modification under GPL terms—see the License section below.
 
 ## Features
 
@@ -48,5 +48,7 @@ Select a practice mode from the app interface and work through the drill exercis
 ## License
 
 Copyright (c) 2026 Neil Brandt.
+
+SPDX-License-Identifier: GPL-3.0-or-later
 
 This repository is licensed under the GNU General Public License v3.0 or later (GPL-3.0-or-later). See [`LICENSE`](LICENSE).
