@@ -1,3 +1,7 @@
+/* SPDX-FileCopyrightText: 2026 Neil Brandt
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
+
 // pureKoreanNumbers.js - Module for pure Korean number cards (low numbers)
 
 import { numberToPureKoreanHangeul, numberToSinoKoreanHangeul, dateToKoreanSpelling, timeToKoreanSpelling } from './numberToHangeul.js';

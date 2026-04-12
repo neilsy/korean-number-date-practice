@@ -1,3 +1,7 @@
+/* SPDX-FileCopyrightText: 2026 Neil Brandt
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
+
 // numberToHangeul.js - Utility for converting numbers to pure Korean Hangeul spelling
 
 const pureUnits = ['', '하나', '둘', '셋', '넷', '다섯', '여섯', '일곱', '여덟', '아홉'];

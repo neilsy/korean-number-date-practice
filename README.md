@@ -6,6 +6,10 @@ This provides infinite repetition of randomly generated numbers, dates, times, e
 
 So this is not a flashcard app in the usual sense. It doesn't retain history or perform spaced repetition. (Spaced repetition of a small, fixed set of cards is not very useful for practicing to quickly say or understand numbers, dates, times, etc. in another language!)
 
+This code, conveniently packaged as an app for ios and android, is coming to app stores soon!
+
+But see below: the licence allows some non-commercial use of this code, so you can use this yourself on a computer quite easily.
+
 ## Features
 
 - Practice Korean number systems (native and Sino-Korean)
@@ -15,6 +19,10 @@ So this is not a flashcard app in the usual sense. It doesn't retain history or 
 - Dark/light theme support
 
 ## Getting Started
+
+This will appear soon fully packaged in an app for ios and android.
+
+But you can use it on a computer by installing it locally and running a simple node server.
 
 ### Prerequisites
 
@@ -39,14 +47,6 @@ Select a practice mode from the app interface and work through the drill exercis
 
 ## License
 
-This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
+Copyright (c) 2026 Neil Brandt.
 
-This means you are free to:
-- Share — copy and redistribute the material in any medium or format
-- Adapt — remix, transform, and build upon the material
-
-Under the following terms:
-- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made
-- NonCommercial — You may not use the material for commercial purposes
-
-For more details, see: https://creativecommons.org/licenses/by-nc/4.0/
+This repository is licensed under the GNU General Public License v3.0 or later (GPL-3.0-or-later). See [`LICENSE`](LICENSE).

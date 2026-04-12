@@ -1,3 +1,7 @@
+/* SPDX-FileCopyrightText: 2026 Neil Brandt
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
+
 // app.js - Main application logic for Phase 1b
 import { modes } from './modes.js';
 

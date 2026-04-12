@@ -1,3 +1,7 @@
+/* SPDX-FileCopyrightText: 2026 Neil Brandt
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
+
 // modes.js - Single source of truth for available practice modes
 
 import { 
