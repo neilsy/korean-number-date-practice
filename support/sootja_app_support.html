@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sootja App Support</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #1c1e1e;
+      background: #f2f2f2;
+      padding: 2rem 1rem;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body { color: #f2f7f7; background: #1c1e1e; }
+      .card { background: #2c2e2e; border-color: #3a3c3c; }
+      .divider { border-color: #3a3c3c; }
+      .faq-q { color: #f2f7f7; }
+      .faq-a { color: #aeb2b2; }
+      h2 { color: #f2f7f7; }
+      .subtitle { color: #aeb2b2; }
+      .email-link { color: #00aaaa; }
+    }
+
+    .container {
+      max-width: 560px;
+      margin: 0 auto;
+    }
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 2rem 0 1.5rem;
+    }
+
+    .app-icon {
+      width: 80px;
+      height: 80px;
+      border-radius: 18px;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 22px;
+      font-weight: 600;
+      letter-spacing: -0.3px;
+      color: #1c1c1e;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      h1 { color: #f2f7f7; }
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: #6c7070;
+      margin-top: 4px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 14px;
+      border: 0.5px solid #d1d6d6;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #6c7070;
+      margin-bottom: 0.75rem;
+    }
+
+    .contact-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .contact-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      background: #e0f7f7;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .contact-icon { background: #0d3535; }
+    }
+
+    .contact-icon svg { width: 18px; height: 18px; }
+
+    .contact-label {
+      font-size: 12px;
+      color: #6c7070;
+    }
+
+    .email-link {
+      display: block;
+      font-size: 15px;
+      color: #0088aa;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .email-link:hover { text-decoration: underline; }
+
+    .divider {
+      border: none;
+      border-top: 0.5px solid #d1d6d6;
+      margin: 0.75rem 0;
+    }
+
+    .faq-item + .faq-item { margin-top: 0.75rem; }
+    .faq-q { font-size: 15px; font-weight: 500; color: #1c1e1e; margin-bottom: 2px; }
+    .faq-a { font-size: 14px; color: #6c7070; line-height: 1.5; }
+
+    .footer {
+      text-align: center;
+      font-size: 12px;
+      color: #aeb2b2;
+      padding: 1.5rem 0 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="header">
+      <img src="./icon.svg" alt="Sootja app icon" class="app-icon">
+      <h1>Sootja</h1>
+      <p class="subtitle">App Support</p>
+    </div>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <div class="contact-row">
+        <div class="contact-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#0099aa" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <path d="M2 7l10 7 10-7"/>
+          </svg>
+        </div>
+        <div>
+          <span class="contact-label">Email support</span>
+          <a class="email-link" href="mailto:sootja.app.support@gmail.com">sootja.app.support@gmail.com</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Frequently asked questions</h2>
+
+      <div class="faq-item">
+        <p class="faq-q">How do I report a bug or unexpected behaviour?</p>
+        <p class="faq-a">Please email us at the support email address above and include a brief description 
+            of what happened and the steps to reproduce it. Screenshots are always helpful.
+            It's best to indicate what kind of device you were using (e.g. tablet or phone, ios or android).
+            You can also directly
+            <a href="https://github.com/neilsy/korean-number-date-practice/issues" class="email-link" style="display:inline;">open an issue on GitHub</a></p>
+      </div>
+
+      <hr class="divider">
+
+      <div class="faq-item">
+        <p class="faq-q">Which devices and iOS versions are supported?</p>
+        <p class="faq-a">Sootja runs on ios and Android devices. Please check your app store for minimum version requirements.</p>
+      </div>
+
+      <hr class="divider">
+
+      <div class="faq-item">
+        <p class="faq-q">How do I request a new feature?</p>
+        <p class="faq-a">We welcome feedback. Send your idea to our support email and we will take it into consideration for future updates.</p>
+      </div>
+
+    </div>
+
+    <p class="footer">&copy; 2026 Neil Brandt &mdash; All rights reserved</p>
+
+  </div>
+</body>
+</html>

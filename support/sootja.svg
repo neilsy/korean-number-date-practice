@@ -1,0 +1,14 @@
+<svg
+version="1.1"
+baseProfile="full"
+width="100"
+height="100"
+viewBox="0 0 100 100"
+xmlns="http://www.w3.org/2000/svg">
+<path d="M14,14 l72,0 l0,72 l-72,0 l0,-72" fill="none" stroke="#ce133f" stroke-width="8"/>
+<path d="M21,40.5 l14,-16 l14,16" fill="none" stroke="#ce133f" stroke-width="5"/>
+<path d="M19.5,46.6 l32,0 m-16.5,0 l0,11" fill="none" stroke="#ce133f" stroke-width="5"/>
+<path d="M21,78.5 l14,-16 l14,16" fill="none" stroke="#ce133f" stroke-width="5"/>
+<path d="M48.5,30 l22,0 m-11,0 l-8,42 m8,-42 l8,42" fill="none" stroke="#ce133f" stroke-width="4.5"/>
+<path d="M74,25 l0,52 m0,-26 l7,0" fill="none" stroke="#ce133f" stroke-width="4.5"/>
+</svg>
