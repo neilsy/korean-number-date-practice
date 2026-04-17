@@ -79,7 +79,7 @@ function fourDigitSino(num, abbreviation) {
   if (tens) {
     let tensWord = '십';
     if (abbreviation == "month" && units == 0){
-      tensWord = '지';
+      tensWord = '시';
     }
     result += (tens === 1 ? tensWord : `${sinoDigits[tens]}${tensWord}`);
   }
