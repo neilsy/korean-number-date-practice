@@ -87,6 +87,8 @@ function initializeModeSelector() {
         if (isOpen) {
             closeBottomSheet();
         } else {
+            // Close instructions sheet if open
+            closeInstructionsSheet();
             bottomSheet.scrollTop = 0;
             overlay.style.display = 'block';
             bottomSheet.classList.add('open');
@@ -218,10 +220,41 @@ function showScreen(screenId) {
     document.getElementById(screenId).classList.add('active');
 }
 
+// Instructions panel
+function initializeInstructionsButton() {
+    const helpButton = document.getElementById('helpButton');
+    const overlay = document.getElementById('overlay');
+    const instructionsSheet = document.getElementById('instructionsSheet');
+
+    helpButton.addEventListener('click', () => {
+        // Toggle behavior: open when closed, close when already open
+        const isOpen = instructionsSheet.classList.contains('open');
+        if (isOpen) {
+            closeInstructionsSheet();
+        } else {
+            // Close mode selector sheet if open
+            closeBottomSheet();
+            instructionsSheet.scrollTop = 0;
+            overlay.style.display = 'block';
+            instructionsSheet.classList.add('open');
+        }
+    });
+
+    overlay.addEventListener('click', closeInstructionsSheet);
+}
+
+function closeInstructionsSheet() {
+    const overlay = document.getElementById('overlay');
+    const instructionsSheet = document.getElementById('instructionsSheet');
+    overlay.style.display = 'none';
+    instructionsSheet.classList.remove('open');
+}
+
 // Initialize on load
 document.addEventListener('DOMContentLoaded', () => {
     initializeDirectionToggle();
     initializeModeSelector();
+    initializeInstructionsButton();
     initializeCardInterface();
 
     // Theme toggle
